@@ -15,7 +15,7 @@ class Point
 			cout<<"Value of X & Y= ("<<x<<", "<<y<<")"<<endl;
 		}
 		
-		friend void swap(Point a, Point b);
+		friend void swap(Point , Point );
 };
 
 void swap(Point a, Point b)

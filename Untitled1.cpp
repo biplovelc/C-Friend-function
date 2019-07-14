@@ -7,10 +7,7 @@ class Manager
 	double mTax;
 	public:
 		Manager(){
-			mTax = 8000.5;
-		}
-		getmTax(){
-			return mTax;
+			mTax = 6000.5;
 		}
 		friend void compute_tax(Manager , Scientist );
 };
@@ -20,10 +17,7 @@ class Scientist
 	double sTax;
 	public:
 		Scientist(){
-			sTax = 19800.45;
-		}
-		getsTax(){
-			return sTax;
+			sTax = 19100.95;
 		}
 		friend void compute_tax(Manager , Scientist);
 };

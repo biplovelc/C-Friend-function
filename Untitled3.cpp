@@ -32,10 +32,10 @@ void add(Complex a, Complex b)
 int main()
 {
 	int r1, r2, c1, c2;
-	cout<<"Enter real and complex numbers for first number:\n";
+	cout<<"Enter real and complex part for first number:\n";
 	cin>>r1>>c1;
 	
-	cout<<"\nEnter real and complex numbers for first number:\n";
+	cout<<"\nEnter real and complex part for second number:\n";
 	cin>>r2>>c2;
 	cout<<endl;
 	

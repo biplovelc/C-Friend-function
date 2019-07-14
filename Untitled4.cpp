@@ -30,5 +30,5 @@ int main()
 	Distance d1(a);
 	Distance d2(b);
 	
-	add(a, d2);
+	add(d1, d2);
 }
